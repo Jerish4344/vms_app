@@ -1,6 +1,6 @@
 import requests
 
-url = "http://192.168.250.153:8000/api/v1/token-auth/"
+url = "http://192.168.250.215:8000/api/v1/token-auth/"
 data = {
     "username": "admin",
     "password": "@dmin@123"

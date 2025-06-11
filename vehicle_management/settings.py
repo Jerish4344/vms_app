@@ -13,7 +13,7 @@ SECRET_KEY = 'your-secret-key-change-in-production'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '192.168.250.164', 
+    '192.168.250.215', 
     '192.168.250.153'
     '127.0.0.1', 
     'localhost',
@@ -23,7 +23,7 @@ ALLOWED_HOSTS = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:19006",  # Expo web
     "http://127.0.0.1:19006",
-    "http://192.168.250.164:19006",  # Update with your IP
+    "http://192.168.250.215:19006",  # Update with your IP
     "http://192.168.250.153:8000",  # Update with your IP
 ]
 
@@ -411,7 +411,7 @@ CSRF_TRUSTED_ORIGINS = [
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:*",
     "http://127.0.0.1:*",
-    "http://192.168.250.164:*",  # Add your IP here
+    "http://192.168.250.215:*",  # Add your IP here
     "http://192.168.250.153:*",  # Add your IP here
     "https://vms.jeyarama.com",
     "http://vms.jeyarama.com:8000",
@@ -534,7 +534,7 @@ if DEBUG:
     CSRF_TRUSTED_ORIGINS = [
         "http://localhost:*",
         "http://127.0.0.1:*",
-        "http://192.168.250.164:*",
+        "http://192.168.250.215:*",
         "http://192.168.250.153:*",
         "https://vms.jeyarama.com",
     ]
